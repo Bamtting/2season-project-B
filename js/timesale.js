@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
   // 목표 날짜 및 시간 설정
-  var targetDate = new Date("2023-10-13T23:59:59").getTime();
+  var targetDate = new Date("2023-11-13T23:59:59").getTime();
 
   // 1초마다 업데이트하는 함수
   var countdownInterval = setInterval(function () {

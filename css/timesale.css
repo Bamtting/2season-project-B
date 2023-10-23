@@ -3,7 +3,6 @@
   position: relative;
   width: 100%;
   padding: 13.8rem 0 11rem;
-  background-color: #f5f6f7;
   text-align: center;
   z-index: 1;
   letter-spacing: -0.08em;
@@ -16,11 +15,11 @@
 
 .timesale em {
   font-weight: 500;
-  font-size: 3.6rem;
+  font-size: 1.8rem;
 }
 .timesale h3 {
   margin-top: 2rem;
-  font-size: 5.6rem;
+  font-size: 2.6rem;
   letter-spacing: -1px;
 }
 .timesale .timesale-box {
@@ -29,9 +28,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50.5rem;
-  padding-top: 2rem;
-  margin: 5rem auto 0;
+  width: 36rem;
+  margin: 2rem auto 0;
   background: url("../images/timesalebar.png") no-repeat center / 100%;
   overflow: hidden;
   box-sizing: border-box;
@@ -53,11 +51,12 @@
   }
 }
 .ts-font {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 2.8rem;
+  z-index: 20;
 }
 #wrap > div.timesale.clearfix > div > div > h4 > em {
-  font-size: 7rem;
+  font-size: 3rem;
   color: red;
 }
 .ts-font strong {
@@ -90,7 +89,7 @@
   display: inline-block;
   padding: 0 0.8rem;
   margin-top: 3rem;
-  font-size: 7.4rem;
+  font-size: 5.4rem;
   letter-spacing: -0.05em;
 }
 .count-time {
@@ -99,7 +98,7 @@
   position: relative;
   width: 30rem;
   height: 11rem;
-  margin: 5.5rem auto 0;
+  margin: 2.5rem auto 0;
 }
 .count-time em {
   position: absolute;
@@ -129,15 +128,14 @@
 .ts-price {
   position: relative;
   display: block;
-  width: 43.8rem;
-  margin-top: 3.2rem;
-  padding-right: 3rem;
+  width: 25.8rem;
+  padding-right: 1rem;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 1.5rem;
   letter-spacing: -1px;
-  line-height: 9rem;
+  line-height: 5rem;
   color: #fff;
-  background: #151c2b url("../images/ts-price-bt.png") no-repeat 36.5rem 50%/2.6rem;
+  background: #151c2b url("../images/ts-price-bt.png") no-repeat 21.5rem 50%/1.6rem;
   text-align: center;
   border-radius: 4.5rem;
   box-sizing: border-box;
